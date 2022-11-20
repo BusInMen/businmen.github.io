@@ -1,12 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Raleway:wght@300&display=swap');
 
-  tr {
+html, body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    font-family: Monsterrat;
+}
+.di {
+    background-image: url("images/back.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
+    margin: 0;
+    padding: 2em;
+    margin-bottom: 1em;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.945);
+}
+.logo {
+    max-width: 8%;
+    padding: 5px;
+}
+h1 { 
+    font-size: 3vw;
+    vertical-align: middle;
+  }
+.di .logo,.di h1 {
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color:rgba(255, 255, 255, 0.9);
+    vertical-align: middle;
+    padding: 0 6.5%;
+}
+tr {
     background: white;
     border-top: 1px;
     border-bottom: 1px;
+    text-align: left;
   }
   body {
-    padding-top: 50px;
-    background-color: rgb(245, 245, 245);
+    background-image: linear-gradient( white, #234123);
   }
 
 thead, tfoot {
@@ -15,28 +51,39 @@ thead, tfoot {
 }
 
 tbody {
-    background-color: #e4f0f5;
+    background-color: #e3f0e6;
+    padding: 30%;
 }
 
 caption {
+
     padding: 10px;
     caption-side: top;
     text-align: left;
-}
+    font-size: 2vw;
+    font-family: Raleway;
+    font-weight : bold;
+    font-style:normal; 
 
+
+}
+.tablest {
+    margin-bottom: 2em;
+}
 table {
     border-collapse: collapse;
-    border: 2px solid rgb(200, 200, 200);
+    border: 2px solid rgb(69, 69, 69);
     letter-spacing: 1px;
-    font-family: sans-serif;
     font-size: .8rem;
-    width: 100%;
+    width: 95%;
     margin-left: 10px;
     margin-right: 10px;
 }
+.table {
+    margin-bottom: 40vh;
+}
 
-td,
-th {
+td, th {
     border-top: 1px solid rgb(190, 190, 190);
     border-bottom: 1px solid rgb(190, 190, 190);
     padding: 5px 10px;
@@ -47,5 +94,6 @@ td {
 }
 
 .total {
-  text-align: left;
+    text-align: left;
+    background-color: rgba(239, 170, 189, 0.701);
 }
